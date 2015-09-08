@@ -1,6 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+  font-family: 'Open Sans New';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+body.custom-background #page { background-color: #ececec; }
+
+.mc-body {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    min-width: 1100px;
+}
+
 .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -87,3 +103,260 @@
 }
 
 
+.title {
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+}
+
+.search-box {
+    box-sizing: border-box;
+    
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+ 
+.sidebar {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    clear: left;        /* clear each row */
+    overflow: hidden;   /* triggers block formatting */
+    zoom: 1;            /* triggers haslayyout in IE5-7*/
+    _overflow: visible; /* IE6 underscore hack */
+    background-color: white;
+    padding-bottom: 2px;
+}
+
+.row-main {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.row-feature {
+    border-top: 2px solid #ececec;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.w-col {
+    box-sizing: border-box;
+}
+
+.w-col-feature1, .w-col-feature2 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.w-col-feature1 {
+    border-right: 2px solid #ececec;
+    width: 40%;
+}
+
+.w-col-feature2 {
+    width: 60%;
+}
+
+.w-001col, .w-002col, .w-003col, .w-004col {
+    float: left;
+    box-sizing: border-box;
+}
+
+.w-01col, .w-02col, .w-03col, .w-04col, .w-05col {
+    box-sizing: border-box;
+    float: left;
+}
+
+.w-logo, .w-1col, .w-2col, .w-3col {
+    box-sizing: border-box;
+    float: left;
+}
+
+.w-logo {
+    width: 145px;
+    padding-left: 10px;
+}
+.w-1col {
+    width: 33.33%;
+}
+
+.w-2col {
+    width: 66.67%;
+}
+
+.w-1col, .w-2col {
+    float: left;
+}
+
+.w-001col {
+    width: 20%;
+}
+
+.w-002col {
+    width: 40%;
+}
+
+.w-003col {
+    width: 60%;
+}
+
+.w-004col {
+    width: 80%;
+}
+
+.w-01col {
+    width: 16.66%;
+}
+
+.w-02col {
+    width: 33.33%;
+}
+
+.w-03col {
+    width: 50%;
+}
+
+.w-04col {
+    width: 66.66%;
+}
+
+.w-05col {
+    width: calc(100% - 145px);
+}
+
+.search-logo {
+    border-radius: 50%;
+    display: block;
+    height: 125px;
+    width: 125px;
+    margin: auto;
+}
+
+.info-item {
+    display: block;
+    clear: both;
+}
+
+.box, .box-body {
+    padding: 5px;
+    display: block;    
+    overflow: hidden;
+    zoom: 1;
+    _overflow: visible;
+}
+
+.box {
+    margin: 0 0 10px;
+}
+
+.box-40 {
+    height: 40px;
+}
+
+.box-60 {
+    height: 70px;
+}
+.box-content {
+    padding: 5px;
+
+color: rgb(62, 69, 69);
+font-family: 'Open Sans New', sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: normal;
+line-height: 20px;
+}
+
+.padding-profile {
+    padding-left: 50px;
+}
+
+.font-title {
+color: rgb(62, 69, 69);
+cursor: pointer;
+font-family: 'Open Sans New', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+text-decoration: none;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.font-sub-title {
+box-sizing: border-box;
+color: rgb(97, 98, 101);
+font-family: 'Open Sans New', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+line-height: 18px;
+white-space: nowrap;
+}
+
+.font-phone {
+color: rgb(62, 69, 69);
+cursor: pointer;
+font-family: 'Open Sans New', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+text-decoration: none;
+}
+
+.font-view-profile {
+color: rgb(56, 120, 216);
+cursor: pointer;
+font-family: 'Open Sans New', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+line-height: 20px;
+text-decoration: none;
+}
+
+.font-description {
+color: rgb(62, 69, 69);
+font-family: 'Open Sans New', sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: normal;
+line-height: 20px;
+}
+
+.font-category {
+color: rgb(167, 167, 167);
+cursor: pointer;
+font-family: 'Open Sans New', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 17.5px;
+text-decoration: none;
+}
+
+.category-list {
+margin: 0;
+}
+
+.mc-search-gallery-link .mc-search-gallery-img {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+.mc-search-gallery-link {
+    margin 5px;
+}
+
+.end-search-box {
+    clear: both;
+}

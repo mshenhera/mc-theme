@@ -63,6 +63,14 @@ imax WordPress Theme, Copyright 2015 TemplatesNext.org
  * ----------------------------------------------------------------------------
  */
 
+@font-face {
+  font-family: 'Open Sans New';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
